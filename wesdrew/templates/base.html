@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+  {% load bootstrap3 %} 
+  {% bootstrap_css %}
+  {% bootstrap_javascript jquery='full' %}
+  {% bootstrap_messages %}
+  {% load static %}
+  <meta charset = "UTF-8">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}" />
+  {% block title %}<title> Wes Drew's Base Page</title> {% endblock title %}
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div id="_sidebar" class="col-sm-3 col-lg-3">
+	<nav id="sidebar">
+          <div class="sidebar-header">
+	    <h3>Here's the sidebar</h3>
+          </div>
+          <ul id="_navbar_items" class="list-unstyled components">
+	    <li><a href="#">Home</a></li>
+	    <li><a href="#">Test_1</a></li>
+	    <li><a href="#">Test_2</a></li>
+          </ul>
+	</nav>
+      </div>
+      <div id="bootstrap-overrides" class="col-sm-9 col-lg-9">
+        {% block content %}
+        {% endblock content %}
+      </div>
+    </div>
+  </div>
+</body>

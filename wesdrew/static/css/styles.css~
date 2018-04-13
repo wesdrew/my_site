@@ -1,0 +1,3 @@
+body .container-fluid .row #_sidebar #sidebar .sidebar-header h3 {
+    color: green;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+<!--     <\!-- bootstrap related tags -\-> -->
+<!--     {% load bootstrap3 %} -->
+<!--     {% bootstrap_css %} -->
+<!--     {% bootstrap_javascript %} -->
+    {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'wesdrew/static/style.css' %}" />
+    <meta charset = "UTF-8">
+    <title> This is the title </title>
+  </head>
+
+<!--   {% block bootstrap3_content %} -->
+<!--     <div class="container"> -->
+<!--       <h1>{% block title %}HEELOASDFADSFASDFASDF{% endblock %}</h1> -->
+
+<!--       <p> -->
+<!--         <a href="{% url 'home' %}">home</a> -->
+<!--       </p> -->
+<!--     </div> -->
+<!--   {% endblock %} -->
+  <body>
+    <h1> TEST TEST TEST </h1>
+  </body>
+</html>
+
+
+
+  
+  <body>
+    <p> WES - here at my page </p>
+  </body>
+</html>
