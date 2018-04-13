@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+
+# emacs related
+*~
+
+
 # Distribution / packaging
 .Python
 env/
@@ -16,6 +21,8 @@ downloads/
 eggs/
 .eggs/
 lib/
+bin/
+include/
 lib64/
 parts/
 sdist/
